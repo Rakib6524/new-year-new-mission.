@@ -1,0 +1,48 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* First Section */
+
+.container{
+  background-image: url('../images/banner/banner1.png') no-repeat center/center;
+  height: 100vh;
+  
+  
+
+}
+.first-section{
+  /* background-color: red; */
+  padding:  500px;
+  
+}
+
+.title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+/* color: #FFFFFF; */
+border: 1px solid white;
+}
+
+.details{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+/* color: #FFFFFF; */
+}
+
+.btn a{
+  text-decoration: none;
+  color: #005FAC;
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 5px;
+}
