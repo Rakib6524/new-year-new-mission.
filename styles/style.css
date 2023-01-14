@@ -56,14 +56,14 @@ color: #FFFFFF;
 /* second-section */
 .second-section{
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+
+
 }
 
 .img{
   height: 700px;
   width: 500px;
-  margin: 50px 0px 400px 100px;
+  margin: 50px 0 0 100px;
 }
 
 .sub-title{
@@ -78,12 +78,44 @@ color: #FFFFFF;
 .failures{
   height: 400x;
   width: 400px;
-  margin: 330px 0px 300px 90px;
+  margin: 330px 0px 0px 90px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #444343;
+  text-align: left;
+}
+.bullet-point{
+margin-left: 0;
+}
+.bullet-point ul{
+  list-style: none;
 }
 
+.bullet-point .fas{
+  padding-right: 5px;
+  color: #16D887;
+}
+
+
+/* Third-section */
+
+.third-title{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+  margin-top: 100px;
+}
+
+.my-plans{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin-top: 40px;
+}
