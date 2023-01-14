@@ -119,3 +119,37 @@ margin-left: 0;
   text-align: center;
   margin-top: 40px;
 }
+
+/* Fourth-section */
+.fourth-section{
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 280px;
+  width: 1000px;
+  /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 100px;
+  
+  
+}
+.fourth-detail{
+  padding-top: 25px;
+  padding-left: 80px;
+}
+
+.fourth-title{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  padding-right: 330px;
+}
+
+/* Footer */
+footer{
+  background-color: #151414;;
+}
